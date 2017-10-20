@@ -1,12 +1,16 @@
 # Site Settings
 title: Hello
-paginate:            5
+paginate:            10
+# gems: [jekyll-paginate]
+paginate_path: "page:num"
+gems: [jekyll-paginate]
+
 
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
 permalink:           none
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed]
+plugins_dir:             [jekyll-paginate, jekyll-sitemap, jekyll-feed]
 
 sass:
   sass_dir: assets/css
@@ -20,4 +24,4 @@ sass:
 #feed:
 #   path:	     rss-feed.xml
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
